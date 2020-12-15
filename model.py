@@ -27,7 +27,7 @@ MODEL_PATH = os.path.join(MODEL_DIR, MODEL_FILE)
 
 print("--- Load data ---")
 print(".......")
-tweet = pd.read_csv("tweets.csv")
+tweet = pd.read_csv("data/tweets.csv")
 
 print("--- Focus on <text> column ---")
 print(".......")
